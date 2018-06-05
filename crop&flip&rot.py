@@ -51,6 +51,7 @@ def crop_image(image,direction=0,rate=4):
         image = image[int(image.shape[0] / rate):, :-int(image.shape[1] / rate), :]
         return image
 
+# crop 
 for i in range(4):
     test_image = cv2.imread('f:/1.jpg')
     test_image = crop_image(test_image,i)
