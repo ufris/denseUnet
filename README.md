@@ -1,5 +1,5 @@
 # python
 
-brain tumor prediction using Unet(tensorflow)
+brain tumor prediction using DenseUnet(tensorflow)
 
 data : BRATS2015
